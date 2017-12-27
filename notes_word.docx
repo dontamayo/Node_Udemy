@@ -1,0 +1,13 @@
+UDEMY Node
+Dec 20, 2017
+
+UDEMY NODE
+
+npm -v  == checking the version of your node
+npm init == creating a new project
+	==This utility will walk you through creating a package.json file.
+	It only covers the most common items, and tries to guess sensible defaults.
+
+	== creating a single file on package.json after pressing enter
+lodash ⇒ comes with utility methods and function that makes developing inside of node lot easier
+ step ⇒now go to npmjs.com, searsh for lodash
