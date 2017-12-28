@@ -14,6 +14,7 @@ const fs = require('fs');  // when using module, use 'const' insted of 'let' and
 // instead of creating new one alll the time we can refactor it and use it all the time
 // if the notes-data.json was deleted you can use the function 'try' try = is reserved keyword
 
+
 let fetchNotes = () => {
   try {
     let notesString =  fs.readFileSync('notes-data.json')
@@ -72,6 +73,7 @@ let removeNote = (title) => {
 };
 
 let logNote = (note) => {
+  debugger;
   console.log('--'); //this create a couple space above my note if everything went well
   //console.log("Title: " + note.title); // this is es5 sample for concatenation
   console.log(`Title: ${note.title}`); //es6 using template literal
