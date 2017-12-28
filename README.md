@@ -20,10 +20,10 @@
 3. requiring your own files
 4. using 3rd party modules/ Packages
 5. Restarting app with Nodemon
-            * nodemon = watching for changing  and restarting our app
+            5a  nodemon = watching for changing  and restarting our app
 6. getting input from user
 7. simplified input with yargs
-              * meaning yargs can create more organized files using terminal, readable!
+              7a meaning yargs can create more organized files using terminal, readable!
 8. working with JSON
 9. Adding and Saving Notes
 10. Refactoring for reusablity
