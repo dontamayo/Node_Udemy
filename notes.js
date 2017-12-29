@@ -1,4 +1,4 @@
-console.log('starting  mylove to notes.js');
+//console.log('starting  mylove to notes.js');
 
 /* //====this is just a sample=====
 module.exports.addNote =  () => {
@@ -50,7 +50,8 @@ let note = {
 //===== if theres duplicate  ====end==
 
 let getAll = () => {
-  console.log("Getting all notes");
+  //console.log("Getting all notes"); //only for sample
+  return fetchNotes();
 };
 
 let getNote = (title) => {

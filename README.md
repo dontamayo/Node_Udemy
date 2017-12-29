@@ -31,3 +31,4 @@
 12. reading notes and reusability
 13. Debugging node.js
 14. Debugging via Chrome Devtools
+15. listing Notes
